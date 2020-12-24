@@ -51,8 +51,8 @@ var rightTop;
 
 function prepareNovel()
 {
-    novel.imagePath = "images/"; // path to your image directory
-    novel.audioPath = "audio/"; // path to your audio directory
+    novel.imagePath = ""; // path to your image directory
+    novel.audioPath = ""; // path to your audio directory
     
     // initialize your characters, positions, and text blocks here
 
