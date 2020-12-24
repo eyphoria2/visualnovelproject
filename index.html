@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<script type="text/javascript" src="exampleNovel.js"></script>
+	<script type="text/javascript" src="js-vine.js"></script>
+	<link rel="stylesheet" href="css of novel.css">
+	<meta charset="UTF-8">
+	<meta name="author" content="Сонные Моли">
+	<meta name="description" content="visual novel for a project">
+	
+	<title>Dialogues.</title>
+
+</head>
+
+<body onload="initNovel(1440, 800);">
+
+	<div id="debug"></div>
+	
+	<div id="novelDiv">
+	
+		<div style="position: absolute; left:0; top: 0; z-index:-1">
+			<img id="background0" src="images/empty.png">
+		</div>
+		
+		<div style="position: absolute; left:0; top: 0; z-index:-1">
+			<img id="background1" src="images/empty.png">
+		</div>
+		
+		<div id="dialogDiv" style="z-index:100">
+		</div>
+		
+	</div>
+  
+	<div style="text-align:center; margin-top: 0.5em;">
+	
+		<input type="button" value="Back to Beginning" onclick="initNovel(1440, 800)"/>
+		
+	</div>
+	
+	<div style="text-align:center; margin-top: 0.5em;">
+	
+		<input type="button" value="Music Off" onclick="stopaudio"/>
+		
+	</div>
+
+</body>
+
+</html>
