@@ -77,7 +77,7 @@ function prepareNovel()
 	leftMiddleSide = new Position(0.2, .97, 0, 1);
     rightSide = new Position(0.98, 0.97, 1, 1);
 	rightMiddleSide = new Position(0.8, 0.97, 1, 1);
-    upperCenter = new Position(0.5, 0.3, 0.5, 0.5);
+    upperCenter = new Position(0.5, 0.5, 0.5, 0.5);
     rightTop = new Position(1, 0.1, 1, 0);
 	Center = new Position(0.55, 0.90, 1, 1);
     
@@ -91,7 +91,7 @@ function prepareNovel()
 		
 		n, "История начинается прямо здесь, с этой минуты. Приятного прохождения!",
 		
-		scene, {image: "start.png", position: Center, effect: "fade"},
+		scene, {image: "start.png", position: upperCenter, effect: "fade"},
 		n, "Представляют.",
 		n, "...",
         scene, "",
