@@ -31,7 +31,16 @@ var preload = [
 	"BG10.png",
 	"BG20.png",
 		
-	"ramka.png	",
+	"ramka.png",
+	"dark.png",
+	
+	"luandami1.png",
+	"luandami2.png",
+	"neos1.png",
+	"neos2.png",
+	"gelious1.png",
+	"gelious2.png",
+	
 ];
 
 /*
@@ -1608,31 +1617,34 @@ function prepareNovel()
 			someone2, "— Герои разбрелись в разные стороны.",
 			someone2, "— Их путь великий и прекрасный.",
 			
-			scene, {image: "", position: Center},
+			scene, {image: "luandami1.png", position: Center},
 			
 			someone2, "— Ами с Лу спустятся девой и мужем на Землю утренней звездой.",
 			someone2, "— Ами разделит свой свет на крылатых человеко-подобных существ.",
+	    		scene, {image: "luandami2.png", position: Center},
 			someone2, "— Чтобы контролировать и оберегать жизнь людей.",
 			
 			someone2, "— Лу же взял на себя обязанности после смерти.",
 			someone2, "— Он присматривает за смертными в своём огненном царстве.",
 			someone2, "...",
 			
-			scene, {image: "", position: Center},
+			scene, {image: "neos1.png", position: Center},
 			
 			someone2, "— Неос была с трудным характером.",
 			someone2, "— Но она просто хочет понять, что не так...",
+	    		scene, {image: "neos2.png", position: Center},
 			someone2, "— Отчаявшись найти Создателя в одной вселенной, она отправилась в другие.",
 			someone2, "— И теперь люди гадают, действительно ли работает теория мультивселенных.",
 			someone2, "...",
 			
-			scene, {image: "", position: Center},
+			scene, {image: "gelious1.png", position: Center},
 			
 			someone2, "— Гелиос же решился на очень отважный поступок.",
 			someone2, "— Пытаясь защитить живые существа против Тьмы, он понял, насколько мало Света вокруг...",
+	    		scene, {image: "gelious2.png", position: Center},
 			someone2, "— И он сам стал этим светом, обернувшись в яркий шар света — Солнце.",
 			someone2, "— Испуская свет в разные стороны, Гелиос освещает вселенную...",
-			
+			scene, {image: "empty.png", position: Center},
 			someone2, "— ...",
 			someone2, "— Героям удалось победить Тьму, но она всё ещё существует.",
 			someone2, "— И существует она в сердцах всего живого.",
