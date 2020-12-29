@@ -131,12 +131,6 @@ function prepareNovel()
 		someone, "— ...пока наконец не приняли форму четырёх существ, которым было подвластно формировать мир вокруг себя.",
 		
 		audio, {src: "stop", format: ["mp3"], action: "play"},
-		
-		menu, [
-				"Световой щит Гелиоса",
-				"Поставить световой щит справа", [jump, "mainBattleRight"],
-				"Поставить световой щит слева", [jump, "mainBattleLeft"],
-			],
 	 
 	realist2, {image: "realist.png", position: Center, avatar: "avataragelious.png"},
 	realist2, "— ...Так-так.",
