@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+}
+
+
+#novelDiv {
+    width: 1200px;
+    height: 700px;
+	background-image: url("ramka.png"); 
+	background-repeat: no-repeat;
+    border: 0px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+
+	user-select: none;
+}
+
+#dialogDiv {
+    font-family: "Deja Vu Sans", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    position: absolute;
+    width: 990px;
+    height: 90px;
+    top: 510px;
+    left: 90px;
+    padding: 25px;
+	border-radius: 5px;
+    background-color: #2E3540;
+	background-attachment: fixed;
+    color: white;
+    text-align: left;
+    filter: alpha(opacity=80);
+    opacity: 0.80;
+
+	user-select: none;
+}
+
+.menuItem {
+    font-family: "Deja Vu Sans", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+	filter: alpha(opacity=80);
+    background-color: #A8A8A8;
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: 0.5em auto;
+    padding: 0.5em 3em;
+    -moz-border-radius: 20px;
+    border-radius: 15px;
+	position: relative;
+}
+
+.menuItem:hover {
+    background-color: #6F6F6F;
+}
+
+.avatar {float: left;}
